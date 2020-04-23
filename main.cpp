@@ -2,7 +2,7 @@
 using namespace std;
 
 string foo() {
-    return "coffee"
+    return "coffee";
 }
 
 int bar () {
@@ -10,6 +10,5 @@ int bar () {
 }
 
 int main() {
-    string word = "coffee";
-    cout << word << endl;
+    cout << bar() << ' ' << foo() << 's' << endl;
 }
